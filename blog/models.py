@@ -26,6 +26,10 @@ class Post(models.Model):
         return f'The title of this post is "{self.title}" | written by "{self.author}"'
 
 class Comment(models.Model):
+    """
+    Stores a single comment entry related to :model:`auth.User`.
+    and :model:`blog.Post`
+    """
     post = models.ForeignKey(Post, on_delete = models.CASCADE,
         related_name = "comments")
     author = models.ForeignKey(
