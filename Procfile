@@ -1,1 +1,1 @@
-web: gunicorn codestar.wsgi
+web: gunicorn project_golfacademy_blog.wsgi
