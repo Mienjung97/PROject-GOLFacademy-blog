@@ -1,0 +1,29 @@
+body {
+    background-color: #F9FAFC;
+}
+
+.big-text {
+    font-weight: 900;
+}
+
+.normal-text {
+    font-weight: 500;
+}
+
+.red-golf {
+    color: #6d180f;
+    font-style: italic;
+}
+
+.black-pro {
+    color: #07090a;
+    font-style: italic;
+}
+
+.light-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #07090a;
+}
